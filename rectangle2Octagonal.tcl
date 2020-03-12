@@ -1,4 +1,5 @@
 # To make a Rectangle object to a Octagonal shape by chopping option.
+# tool：Custom Compiler
 proc makePad { rectLength } {
 
 set oaDesign [db::getAttr editDesign -of [de::getActiveContext]]
